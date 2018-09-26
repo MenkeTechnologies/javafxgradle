@@ -16,7 +16,7 @@ repositories {
     mavenCentral()
 }
 
-task all (type:Exec) {
+task start (type:Exec) {
     commandLine "./build.sh"
 }
 
